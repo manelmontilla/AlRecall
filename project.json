@@ -1,0 +1,15 @@
+{
+    "version": "1.0.0-*",
+    "compilationOptions": {
+        "emitEntryPoint": true
+    },
+
+    "dependencies": {
+        "NETStandard.Library": "1.0.0-rc3-23829"
+    },
+
+    "frameworks": {
+        "dnxcore50": { }
+       
+    }
+}
