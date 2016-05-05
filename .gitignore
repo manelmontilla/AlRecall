@@ -1,4 +1,7 @@
-bin/
-obj/
-project.lock.json
-.vscode
+/.vscode
+Dd]ebug/
+[Rr]elease/
+x64/
+build/
+[Bb]in/
+[Oo]bj/
