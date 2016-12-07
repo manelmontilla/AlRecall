@@ -5,7 +5,7 @@
 >Just a little library containing classic algorithms implementations. 
 >Implemented just for fun and refreshing CS fundamentals.
 
-Sort algorithms:
+Sorting algorithms:
 * Heap Sort.  Worst time complexity: n^2, Avg. time complexity nlogn.
 * Quick Sort. Worst and Avg time complexity: nlogn.
 * Merge Sort. Worst and Avg time complexity: nlogn.
