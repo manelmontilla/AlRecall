@@ -65,7 +65,7 @@ namespace Alrecall.Structures.Arrays
         }
         public static void QuickSort<T>(this T[] src, int BeginIndex, int EndIndex, Action<T[]> Step = null) where T : IComparable<T>
         {
-            //direct case
+            // direct case
             if (BeginIndex >= EndIndex)
                 return;
             int index = src.QuickSortPartition(BeginIndex, EndIndex, Step);

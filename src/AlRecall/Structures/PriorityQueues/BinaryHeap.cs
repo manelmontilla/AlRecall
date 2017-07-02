@@ -5,8 +5,8 @@ using Alrecall.Structures.Arrays.Utils;
 namespace Alrecall.Structures.PriorityQueues
 {
 
-    //TODO:implement standard priority queues operations insert, delete, extract top priority element,
-    // get top priority element
+    // TODO:implement standard priority queues operations insert, delete, extract top priority element,
+    //  get top priority element
     public class BinaryHeap<T> : IPriorityQueue<T>, IEnumerable<T> where T : IComparable<T>
     {
         public T[] Array { set; get; }
@@ -19,7 +19,7 @@ namespace Alrecall.Structures.PriorityQueues
             this.Array = new T[Length];
             if (Comparer == null)
             {
-                //Default comparer defines a MinHeap
+                // Default comparer defines a MinHeap
                 Comparer = (v1, v2) =>
                 {
                     var ret = (v1.CompareTo(v2) <= 0);
@@ -44,11 +44,11 @@ namespace Alrecall.Structures.PriorityQueues
         }
         public void PercolateUp(int pos)
         {
-            //direct case
+            // direct case
             if (pos == 0)
                 return;
             var paretIndex = GetParentIndex(pos);
-            //direct case
+            // direct case
             if (this.Comparer(this.Array[paretIndex], this.Array[pos]))
                 return;
             this.Array.SwapValues(pos, paretIndex);

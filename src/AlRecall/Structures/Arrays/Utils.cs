@@ -3,7 +3,7 @@ using System.Collections.Generic;
 namespace Alrecall.Structures.Arrays.Utils
 {
     
-    public static class ArrayExtenxions
+    public static class ArrayExtensions
     {
         public static void SwapValues<T>(this T[] src, int i, int j)
         {
